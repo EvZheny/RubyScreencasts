@@ -13,7 +13,7 @@ class Duck
   class << self
 
     attr_accessor :greeting
-  
+
     def quack
       puts "#{@@greeting} #@greeting" #"class quack"
     end

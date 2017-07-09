@@ -19,6 +19,7 @@ class StoreApplication
         require_relative 'order'
       end
       @instance ||= self
+      @instance.freeze
     end
 
     attr_accessor :name, :environment
@@ -38,6 +39,7 @@ class StoreApplication
           yield(self)
         end
         @instance ||= self
+        @instance.freeze
       end
 
       attr_accessor :email, :login

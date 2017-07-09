@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="174f6038-c165-4ed4-84c0-74b607305a47" name="Default" comment="" />
+    <list default="true" id="174f6038-c165-4ed4-84c0-74b607305a47" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/duck.rb" afterPath="$PROJECT_DIR$/duck.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/init.rb" afterPath="$PROJECT_DIR$/init.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order.rb" afterPath="$PROJECT_DIR$/order.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store_application.rb" afterPath="$PROJECT_DIR$/store_application.rb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +16,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="duck.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/duck.rb">
+      <file leaf-file-name="init.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/init.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+            <state relative-caret-position="34">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store_application.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store_application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/order.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -29,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/order.rb" />
         <option value="$PROJECT_DIR$/virtual_item.rb" />
         <option value="$PROJECT_DIR$/string.rb" />
         <option value="$PROJECT_DIR$/cart.rb" />
@@ -38,9 +62,10 @@
         <option value="$PROJECT_DIR$/item_container.rb" />
         <option value="$PROJECT_DIR$/real_item.rb" />
         <option value="$PROJECT_DIR$/item.rb" />
-        <option value="$PROJECT_DIR$/init.rb" />
-        <option value="$PROJECT_DIR$/store_application.rb" />
         <option value="$PROJECT_DIR$/duck.rb" />
+        <option value="$PROJECT_DIR$/store_application.rb" />
+        <option value="$PROJECT_DIR$/order.rb" />
+        <option value="$PROJECT_DIR$/init.rb" />
       </list>
     </option>
   </component>
@@ -255,12 +280,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499614148544</updated>
-      <workItem from="1499614150273" duration="13008000" />
+      <workItem from="1499614150273" duration="14779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13008000" />
+    <option name="totallyTimeSpent" value="14779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="24" width="1013" height="645" extended-state="0" />
@@ -296,14 +321,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/order.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/virtual_item.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -376,26 +393,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/duck.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/store_application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="252">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/init.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duck.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="34">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>

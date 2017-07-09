@@ -1,6 +1,6 @@
 class Order
 
-  attr_reader :items
+  attr_reader :items, :@placed_at
 
   include ItemContainer
 
@@ -10,7 +10,15 @@ class Order
   end
 
   def place
+    @placed_at = Time.now
+
     #
+    #
+    #
+    #
+    #
+    #
+
   end
 
 end
