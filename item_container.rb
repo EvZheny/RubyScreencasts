@@ -10,6 +10,17 @@ module ItemContainer
 
   module InstanceMethods
 
+    def method_missing(method_name)
+      if method_name =~ /^all_/
+        show_all_items_with_names(method_name.to_s.sub(//^all_, "").chomp(s))
+        #puts "showing all items"
+      else
+        super
+      end
+      #puts "method #{method_name}"
+
+    end
+
     def add_item(item)
       unless item.price < self.class.min_price
         @items.push item
@@ -32,6 +43,11 @@ module ItemContainer
       @items.count { |i| i.price}
     end
 
+  end
+
+  private
+  def show_all_items_with_names(n)
+    @items.map { |i| i if n == i.name }.delete_if{ |i| i.nil?}
   end
 
   def self.included(base)
