@@ -8,5 +8,5 @@ cart.read_from_file
 begin
 cart.save_to_file
 rescue Cart::ItemNotSupported
-  puts "One of your items is ..."
+  puts "One of your items is ... unsupported classes are: #{Cart::UNSUPPORTED_ITEMS}"
 end
