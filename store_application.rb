@@ -28,7 +28,7 @@ class StoreApplication
     end
 
   end
-  
+
   class Admin
 
     class << self
