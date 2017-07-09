@@ -16,5 +16,14 @@ cart = Cart.new("roman")
 cart.add_item RealItem.new({:weight => 100, :price => 101, :name => "car"})
 cart.add_item RealItem.new({:weight => 100, :price => 101, :name => "car"})
 cart.add_item RealItem.new({:weight => 100, :price => 101, :name => "kettle"})
-p cart.all_cars
-p cart.all_kettles
+
+puts cart.kind_of?(Cart)
+puts @items[0].class == AntiqueItem
+puts @items[0].class == Item
+
+puts @items[0].respond_to?(:info)
+
+puts @items[0].send(:price)
+
+method = "all_cars"
+@items[0].send(all_cars)
